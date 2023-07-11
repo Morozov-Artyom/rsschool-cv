@@ -4,8 +4,85 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>cv</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header class = "header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class = "main">
+    <div class="container main-container">
+      <section class=" section-profile" id="profile">
+         <img class = "photo" src="assets/img/photo.jpg" alt="my photo">
+         <div class="section-title">
+          <h1 class="main-title">Artyom Morozov</h1>
+          <h2 class="subtitle">Front-end developer</h2>
+         </div>
+         
+      </section>
+      <section class="section" id="contacts">
+        <h2>Contacts</h2>
+        <ul class="contacts-list">
+          <li class="section-item"><b>Location:</b> St. Petersburg, Russia</li>
+          <li class="section-item"><b>Phone number:</b> +7(999)999-99-99</li>
+          <li class="section-item"><b>Discord:</b> @Morozov-Artyom</li>
+          <li class="section-item"><b>Email:</b> Email@gmail.com</li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2>Summary</h2>
+        <p>I'm ...</p>
+      </section>
+      <section class="section" id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2>Code</h2>
+        <code><pre>function multiply (a,b){
+          return a*b;
+      }</pre></code>
+      </section>
+      <section class="section" id="projects">
+        <h2>Projects</h2>
+        <a href="https://github.com/Morozov-Artyom/rsschool-cv.git">https://github.com/Morozov-Artyom/rsschool-cv.git</a>
+      </section>
+      <section class="section" id="education">
+        <h2>Education</h2>
+        <p><b>University:</b> SPbETU Radar Systems 24'</p>
+      </section>
+      <section class="section" id="languages">
+        <h2>Languages</h2>
+        <p><b>English level:</b> B2 (I don't have much speaking practice, consuming & browsing content basically)</p>
+      </section>
+    </div>
+  </main>
+  <footer class = "footer">
+    <div class="container">
+      footer logo
+    </div>
+  </footer>
 </body>
 </html>
